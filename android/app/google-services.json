@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "78861346676",
+    "project_id": "fipola-6b4f9",
+    "storage_bucket": "fipola-6b4f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78861346676:android:bb7e7d719c99dfe4a1ae21",
+        "android_client_info": {
+          "package_name": "com.fipolaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78861346676-iofhmevc2drdd5s6phnnpj0940m7rf9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fipolaapp",
+            "certificate_hash": "a25727b5954267e72ef6d8c25504460ac4ed066f"
+          }
+        },
+        {
+          "client_id": "78861346676-8f9nivi35d0bt7f7v6gb07f3uca5nj7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXbUsA6wnTw3O-sXZxSd-uFfULWQNHr-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78861346676-8f9nivi35d0bt7f7v6gb07f3uca5nj7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

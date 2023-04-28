@@ -1,0 +1,73 @@
+import {Dimensions, StyleSheet} from 'react-native';
+const {width, height} = Dimensions.get('window');
+
+export const styles = StyleSheet.create({
+  mainContainer: {
+    width: width,
+    height: height,
+    // marginTop: 150,
+  },
+  headerContainer: {
+    // flexDirection: 'row',
+    backgroundColor: '#F5BF45',
+    height: 152,
+    paddingTop: 25,
+  },
+  profileText: {
+    color: '#18161B',
+    fontSize: 24,
+    fontWeight: '600',
+    textTransform: 'capitalize',
+    textAlign: 'center',
+    marginLeft: 130,
+    // paddingHorizontal: 120,
+  },
+  cartContainer: {
+    marginLeft: 16,
+    marginTop: 20,
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    padding: 20,
+    width: '92%',
+    backgroundColor: '#FFFFFF',
+    paddingBottom: 25,
+    borderRadius: 10,
+  },
+  textInput: {
+    borderWidth: 2,
+    width: 320,
+    height: 60,
+    borderRadius: 60,
+    alignSelf: 'center',
+    backgroundColor: 'white',
+    paddingLeft: 30,
+    // zIndex: 0,
+    position: 'absolute',
+  },
+  textInputLabel: {
+    position: 'absolute',
+    left: 40,
+    color: '#18161B',
+    fontWeight: '600',
+    fontSize: 14,
+    backgroundColor: 'white',
+    paddingLeft: 5,
+    borderRadius: 5,
+  },
+  bottomContainer: {
+    width: 350,
+    height: 401,
+    marginTop: 30,
+    borderRadius: 15,
+    // borderWidth: 1,
+    backgroundColor: '#FFFFFF',
+    padding: 15,
+    alignSelf: 'center',
+  },
+  addCardBtn: {
+    position: 'absolute',
+    bottom: 90,
+    alignSelf: 'center',
+  },
+});
